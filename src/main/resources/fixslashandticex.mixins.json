@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.Maxwell.fixslashandticex.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "fixslashandticex.refmap.json",
+  "mixins": [
+    "FaceMixin"
+  ],
+  "client": [
+    "GroupObjectMixin",
+    "TicEXSBUtilsMixin",
+    "SBToolRenderStateMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
